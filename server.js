@@ -6,7 +6,7 @@ const {Server} = require('socket.io');
 const ACTIONS = require("./Action");
 const cors = require('cors');
 app.use(cors({
-    origin: 'https://www.section.io'
+    origin: 'https://code-junction.vercel.app/'
 }));
 
 
